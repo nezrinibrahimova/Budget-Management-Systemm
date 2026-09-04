@@ -201,7 +201,7 @@ def main():
       manager.show_report()
 
     elif choice == "7":
-      year_month = input("Hesabatını görmək istədiyiniz ay (YYYY-MM, məs: 2024-01): ")
+      year_month = input("Hesabatını görmək istədiyiniz ay (YYYY-MM): ")
       manager.show_monthly_report(year_month)
 
     elif choice == "8":
